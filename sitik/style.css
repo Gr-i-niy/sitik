@@ -1,0 +1,16 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+.header {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+p, th, td {
+  font-size: 17px;
+}

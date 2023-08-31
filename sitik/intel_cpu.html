@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Главная</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="device.html">Устройство</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="history.html">История процессоров</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-expanded="false">
+              Современные процессоры
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="intel_cpu.html">Intel</a></li>
+              <li><a class="dropdown-item" href="amd_cpu.html">AMD</a></li>
+
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <img src="img/intel.png" style="width: 100%; margin: auto; padding-bottom: 30px;">
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col text-left">
+        <h5><a href="#history">История</a></h5>
+      </div>
+      <div class="col text-center">
+        <h5><a href="#alder_lake">Intel Alder Lake</a></h5>
+      </div>
+      <div class="col text-right">
+        <h5><a href="#processors">Характеристики процессоров</a></h5>
+      </div>
+    </div>
+
+    <div>
+
+
+      <div style="padding-top: 30px;">
+        <a name="history"></a>
+        <h1 class="header">История</h1>
+
+        <div>
+          <div class="row" style="padding-bottom: 20px; ">
+
+            <div class="col-9">
+              <p>
+                Роберт Нойс и Гордон Мур были в числе 8 соучредителей Fairchild Semiconductor. В этой компании они
+                разработали интегральную схему и решили основать собственную. 18 июля 1968 года она была
+                зарегистрирована
+                под названием NM Electronics, но вскоре переименована в Intel (сокращение от Integrated Electronics).
+                Вскоре
+                к ним присоединился Энди Гроув, ещё один сотрудник Fairchild. Бизнес-план компании, распечатанный
+                Робертом
+                Нойсом на печатной машинке, занимал одну страницу. Представив его венчурному финансисту, ранее
+                помогавшему
+                создать Fairchild, Intel получила стартовый кредит в 2,5 млн $.
+
+              </p>
+
+            </div>
+
+            <div class="col-3">
+              <figure>
+                <p style="text-align: center;"><img class="rounded" src="img/intel_creators.png"
+                    style="padding-right: 10px; padding-top: 5px; max-width: 100%;"></p>
+                <figcaption style="text-align: center;">Энди Гроув, Роберт Нойс и Гордон Мур в 1978 году</figcaption>
+              </figure>
+
+
+            </div>
+
+          </div>
+          <div class="row" style="padding-bottom: 20px; ">
+
+            <div class="col-9">
+
+              <p>В 1974 году был представлен первый по-настоящему универсальный микропроцессор Intel 8080; при цене 360
+                $ он
+                мог заменить ЭВМ, стоившие несколько тысяч долларов. Уже в 1980 году IBM избрала процессоры Intel 8088
+                для
+                своего первого персонального компьютера. В 1983 году оборот компании впервые достиг миллиарда долларов,
+                к
+                этому времени число сотрудников превысило 15 тысяч. В 1985 году началось продвижение на рынок процессора
+                80386, который позволял обрабатывать несколько программ одновременно, имел 32-битную архитектуру и
+                вмещал
+                275 тысяч транзисторов. Следующая модель, 80486, представленная в 1989 году, вмещала 1,2 млн
+                транзисторов и
+                имела встроенный математический сопроцессор.
+              </p>
+
+            </div>
+
+            <div class="col-3">
+              <figure>
+                <p style="text-align: center;"><img class="rounded" src="img/intel8080.jpg" style="max-width: 100%;">
+                </p>
+                <figcaption style="text-align: center;">Intel 8080</figcaption>
+              </figure>
+
+            </div>
+
+          </div>
+          <div class="row" style="padding-bottom: 20px; ">
+
+            <div class="col-9">
+              <p>В 1993 году был представлен процессор пятого поколения Pentium с 3,1 млн транзисторов и быстродействием
+                более 100 млн операций в секунду. С началом продаж в 1995 году процессора Pentium Pro оборот в следующем
+                году превысил $20 млрд. В 1999 году Intel была включена в Промышленный индекс Доу Джонса. В 2000 году на
+                рынок были выпущены процессоры Pentium III с частотой 1 ГГц и Itanium, первый 64-разрядный процессор
+                компании. К этому времени во всех компьютерах, за исключением Apple, были процессоры Intel или
+                совместимые с
+                ними процессоры производства AMD. Ранее Apple использовала процессоры Motorola, но в 2005 году объявила
+                о
+                переходе на Intel.</p>
+            </div>
+
+            <div class="col-3">
+              <figure>
+                <p style="text-align: center;"><img class="rounded" src="img/intel_Pentium.jpg"
+                    style="max-width: 100%;"></p>
+                <figcaption style="text-align: center;">Intel Pentium Pro</figcaption>
+              </figure>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+
+
+    <div style="padding-top: 30px;">
+      <h3 class="header">Приобретения Intel</h3>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Компания</th>
+            <th scope="col">Сумма сделки</th>
+            <th scope="col">Год сделки</th>
+            <th scope="col">Специализация компании</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>McAfee</td>
+            <td>$7,68 млрд</td>
+            <td>2010</td>
+            <td>Компьютерная безопасность</td>
+          </tr>
+          <tr>
+            <td>Altera</td>
+            <td>$16,7 млрд </td>
+            <td>2015</td>
+            <td>Разработка ПЛИС (Программируемая логическая интегральная схема)</td>
+          </tr>
+          <tr>
+            <td>Nervana Systems</td>
+            <td>$350 млн</td>
+            <td>2016</td>
+            <td>Разработка нейрочипов для систем искусственного интеллекта с глубоким обучением</td>
+          </tr>
+          <tr>
+            <td>Mobileye</td>
+            <td>$14,9 млрд</td>
+            <td>2017</td>
+            <td>Разработки в области машинного зрения и самоуправляемых автомобилей</td>
+          </tr>
+          <tr>
+            <td>Habana Labs</td>
+            <td>$2 млрд </td>
+            <td>2019</td>
+            <td>Разработка нейрочипов для ускорения машинного обучения в системах искусственного интеллекта</td>
+          </tr>
+          <tr>
+            <td>Tower Semiconductor</td>
+            <td>$5,4 млрд</td>
+            <td>2022</td>
+            <td>Производство чипов</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+    <div>
+      <a name="alder_lake"></a>
+      <h1 class="header">Intel Alder Lake</h1>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <h5>Содержание</h5>
+        </li>
+        <li class="list-group-item"><a href="#alder1">Intel Alder Lake</a></li>
+        <li class="list-group-item"><a href="#alder2">Гибридное строение</a></li>
+        <li class="list-group-item"><a href="#alder3">Разнообразные конструкционные блоки</a></li>
+        <li class="list-group-item"><a href="#alder4">Новый контроллер памяти</a></li>
+        <li class="list-group-item"><a href="#alder5">Новый техпроцесс</a></li>
+        <li class="list-group-item"><a href="#processors">Характеристики процессоров Alder Lake</a></li>
+        <li class="list-group-item">&nbsp;</li>
+      </ul>
+
+      <p>
+        Процессор, который изменит всё, – примерно так можно охарактеризовать энтузиазм Intel, которым сопровождался
+        выход Alder Lake. Ещё два с половиной года тому назад об Alder Lake говорили в том ключе, что это наиболее
+        значимый шаг Intel со времён появления процессоров Core в 2006 году. И с этим трудно не согласиться. В Alder
+        Lake Intel
+        не только серьёзно обновила внутреннее устройство (микроархитектуру) процессора, добавила поддержку
+        принципиально новых типов памяти и внешних интерфейсов, но ещё и реализовала иной концепт многопоточных
+        вычислений, прибегать к которому в массовых настольных процессорах пока ещё никто не пытался.
+
+
+      </p>
+
+
+      <img src="img/intel_cpu.jpg" style="width: 100%; padding: 10px;">
+
+      <a name="alder1">
+        <h5>Intel Alder Lake</h5>
+      </a>
+      <p>
+        Работа над Alder Lake стартовала примерно тогда, когда AMD начала добиваться первых заметных успехов со своими
+        продуктами семейства Zen, и поэтому его можно считать ответом Intel на изменившиеся правила игры на
+        процессорном
+        рынке. То есть все предшествующие линейки, которые выпускала Intel в противовес сменяющим друг друга
+        поколениям
+        Ryzen, скорее были движением по инерции. Но то, что выход Alder Lake должен ознаменовать новый этап
+        процессорной
+        гонки, где лидерство AMD будет нарушено, – лишь одна из причин, по которым к новинке Intel приковано столько
+        внимания. Вторая же причина состоит в том, что, вне зависимости от того, окажется ли Alder Lake лучше Zen 3
+        или
+        нет, это всё равно революция, ведь таких масштабных обновлений мы не видели уже очень давно. В Alder Lake
+        значительно увеличено число вычислительных ядер, наконец-то внедрён свежий техпроцесс и применена гибридная
+        архитектура, объединяющая два разнородных типа ядер.
+      </p>
+
+
+      <img src="img/intel_alder_lake.png" style="width: 100%; padding: 10px;">
+
+      <a name="alder2">
+        <h5>Гибридное строение</h5>
+      </a>
+      <p>
+        Начнём с самого интересного: гибридное строение. Речь идёт о том, что Alder Lake будут основываться на ядрах
+        двух типов одновременно – производительных (P-ядрах) и эффективных (E-ядрах). Их объединение в одном
+        вычислительном устройстве, по задумке разработчиков, должно позволить добиться недостижимой ранее гибкости как
+        в
+        смысле сферы применимости таких процессоров, так и с точки зрения соотношения производительности и
+        энергоэффективности. Гибридный подход big.LITTLE уже давно используется в мобильных процессорах, и идея Intel,
+        воплощённая в Alder Lake, чем-то напоминает эту схему. По задумке Intel, большие производительные ядра следует
+        бросать на решение высокоприоритетных задач переднего плана, требующих короткого времени реакции, в то время
+        как
+        маленькие и энергоэффективные ядра могут заняться фоновыми процессами. Кроме того, все типы ядер можно
+        объединить для решения одной задачи, что позволит достичь максимального уровня быстродействия, по крайней мере
+        в
+        теории.
+      </p>
+
+      <img src="img/intel_bigLITTLE.png" style="width: 100%; padding: 10px;">
+
+
+      <a name="alder3">
+        <h5>Разнообразные конструкционные блоки</h5>
+      </a>
+      <p>
+        Важной задачей, которую Intel ставила перед собой при разработке Alder Lake, было создание не только двух
+        типов
+        ядер, но и более широкого набора разнообразных конструкционных блоков, которые могли бы позволить легко
+        собирать
+        различные по назначению потребительские процессоры для разных рыночных сегментов и с различными
+        характеристиками: как высокопроизводительные настольные, так и мобильные и даже ультрамобильные.
+      </p>
+
+      <img src="img/intel_mobile.png" style="width: 100%; padding: 10px;">
+
+      <a name="alder4">
+        <h5>Новый контроллер памяти</h5>
+      </a>
+      <p>
+        Кроме того использован новый контроллер памяти с поддержкой сразу четырёх типов оперативной памяти. Он может
+        работать как с новыми DDR5и LPDDR5, так и со старой памятью DDR4и LPDDR4X. Естественно, все четыре типа памяти
+        будут поддерживаться не одновременно: выбор того или иного варианта будет происходить на этапе проектирования
+        конкретной платформы. Логично ожидать, что поддержка DDR5 в первую очередь появится в высокопроизводительных
+        десктопах, в то время как решения среднего уровня продолжат опираться на привычную DDR4- и LPDDR4X-память. И
+        так
+        будет продолжаться до тех пор, пока цена модулей DDR5 будет существенно превышать стоимость DDR4.
+      </p>
+
+      <img src="img/intel_memory.png" style="width: 100%; padding: 10px;">
+
+      <a name="alder5">
+        <h5>Новый техпроцесс</h5>
+      </a>
+      <p>
+        Ещё одно большое нововведение касается технологического процесса производства. Alder Lake станут первыми
+        чипами
+        Intel, которые будут выпускаться по техпроцессу Intel 7 – до недавнего переименования он фигурировал под
+        названием 10 нм Enhanced SuperFin. Речь здесь идёт о втором этапе оптимизаций процесса с 10-нм нормами,
+        который
+        должен обеспечить улучшение удельной производительности на ватт на 10-15 % относительно прошлой версии
+        техпроцесса 10 нм SuperFin. Хотя ранее техпроцесс Intel 7 считался 10-нм, по плотности размещения транзисторов
+        на кристалле он либо сравним, либо превосходит 7-нм техпроцесс других производителей, что как раз и дало
+        производителю моральное право переименовать технологию в Intel 7: бывший 10-нм техпроцесс Intel обеспечивает
+        размещение 100,76 млн транзисторов на мм2, в то время как 7-нм процесс TSMC упаковывает на той же площади
+        только
+        91,2 млн транзисторов.
+      </p>
+
+      <img src="img/intel_tech_proc.png" style="width: 100%; padding: 10px;">
+
+
+      <p>
+        Пользуясь данной производственной технологией, Intel собирается упаковывать в полупроводниковые кристаллы Alder
+        Lake до восьми производительных и восьми эффективных ядер одновременно. Это значит, что максимальное число ядер
+        в будущих процессорах достигает 16, но такие конфигурации будут предлагаться только для настольных платформ.
+
+      </p>
+      <a name="processors">
+        <h5>Характеристики процессоров Alder Lake</h5>
+      </a>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Номер</th>
+            <th scope="col">Кол-во ядер</th>
+            <th scope="col">Кол-во потоков</th>
+            <th scope="col">Кеш L3</th>
+            <th scope="col">Частота</th>
+            <th scope="col">TDP</th>
+            <th scope="col">Цена</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>i9-12900</td>
+            <td>16 (8P+8E)</td>
+            <td>24</td>
+            <td>30MB</td>
+            <td>5.0</td>
+            <td>65-202</td>
+            <td>489$</td>
+          </tr>
+          <tr>
+            <td>i7-12700</td>
+            <td>12 (8P+4E)</td>
+            <td>20</td>
+            <td>25MB</td>
+            <td>4.8</td>
+            <td>65-180</td>
+            <td>339$</td>
+          </tr>
+          <tr>
+            <td>i5-12600</td>
+            <td>6 (6P+0E)</td>
+            <td>12</td>
+            <td>18MB</td>
+            <td>4.6</td>
+            <td>65-117</td>
+            <td>223$</td>
+          </tr>
+          <tr>
+            <td>i5-12400</td>
+            <td>6 (6P+0E)</td>
+            <td>12</td>
+            <td>18MB</td>
+            <td>4.4</td>
+            <td>65-117</td>
+            <td>192$</td>
+          </tr>
+          <tr>
+            <td>i3-12300</td>
+            <td>4 (4P+0E)</td>
+            <td>8</td>
+            <td>12MB</td>
+            <td>4.4</td>
+            <td>60-89</td>
+            <td>143$</td>
+          </tr>
+          <tr>
+            <td>i3-12100</td>
+            <td>4 (4P+0E)</td>
+            <td>8</td>
+            <td>12MB</td>
+            <td>4.3</td>
+            <td>60-89</td>
+            <td>122$</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+      <p>
+        Intel удалось совершить настоящую революцию на процессорном рынке. Совершенно очевидно, что в ближайшее время на
+        рынке процессоров для настольных систем начнут происходить серьёзные перемены. AMD придётся агрессивно снижать
+        цены на свои предложения, а Intel должна будет постараться удовлетворить спрос на процессоры Alder Lake, который
+        наверняка окажется немалым.
+      </p>
+    </div>
+
+
+    <br><br>
+
+    <footer class="row row-cols-4 py-4 my-4 border-top">
+
+
+      <div class="col">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-cpu"
+          viewBox="0 0 16 16">
+          <path
+            d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0zm-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3h-7zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z">
+          </path>
+        </svg>
+      </div>
+
+
+      <div class="col">
+        <h5>Навигация</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Главная</a></li>
+          <li class="nav-item mb-2"><a href="device.html" class="nav-link p-0 text-muted">Устройство</a></li>
+          <li class="nav-item mb-2"><a href="history.html" class="nav-link p-0 text-muted">История процессоров</a></li>
+          <li class="nav-item mb-2"><a href="intel_cpu.html" class="nav-link p-0 text-muted">Intel</a></li>
+          <li class="nav-item mb-2"><a href="amd_cpu.html" class="nav-link p-0 text-muted">AMD</a></li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h5>Источники</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a
+              href="https://ru.wikipedia.org/wiki/%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D1%80"
+              class="nav-link p-0 text-muted" target="_blank">Wikipedia - История</a></li>
+          <li class="nav-item mb-2"><a href="https://ru.wikipedia.org/wiki/Advanced_Micro_Devices"
+              class="nav-link p-0 text-muted" target="_blank">Wikipedia - История AMD</a></li>
+          <li class="nav-item mb-2"><a href="https://en.wikipedia.org/wiki/Advanced_Micro_Devices"
+              class="nav-link p-0 text-muted" target="_blank">Wikipedia - История AMD</a></li>
+          <li class="nav-item mb-2"><a href=" https://ru.wikipedia.org/wiki/Intel" class="nav-link p-0 text-muted"
+              target="_blank">Wikipedia - История Intel</a></li>
+          <li class="nav-item mb-2"><a
+              href="https://3dnews.ru/1052960/obzor-protsessora-core-i912900k-perevorot-v-soznanii"
+              class="nav-link p-0 text-muted" target="_blank">3dnews - Alder lake</a></li>
+          <li class="nav-item mb-2"><a
+              href="https://3dnews.ru/1049571/pochemu-intel-alder-lake-glavniy-protsessor-etoy-oseni/page-1.html"
+              class="nav-link p-0 text-muted" target="_blank">3dnews - Alder lake</a></li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h5>&nbsp;</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="https://tproger.ru/explain/how-cpu-works/" class="nav-link p-0 text-muted"
+              target="_blank">Tproger - Устройство процессора</a></li>
+          <li class="nav-item mb-2"><a href="https://habr.com/ru/post/457178/" class="nav-link p-0 text-muted"
+              target="_blank">Habr - Логические элементы</a></li>
+          <li class="nav-item mb-2"><a
+              href=" https://www.techspot.com/article/1830-how-cpus-are-designed-and-built-part-2/"
+              class="nav-link p-0 text-muted" target="_blank">Techspot - Логические элементы</a></li>
+          <li class="nav-item mb-2"><a href="https://thecode.media/summator/" class="nav-link p-0 text-muted"
+              target="_blank">Thecode - Транзистор</a></li>
+
+        </ul>
+      </div>
+    </footer>
+
+  </div>
+
+
+
+
+
+  <script src="script.js"></script>
+
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+
+  <!-- JavaScript and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
